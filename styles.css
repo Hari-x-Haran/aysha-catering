@@ -42,7 +42,8 @@ main {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+  box-shadow: 5px 5px 10px 1px #000000;
 }
 
 /* Mini Menu */
@@ -51,7 +52,8 @@ main {
   background: white;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); */
+  box-shadow: 5px 5px 10px 1px #000000;
 }
 
 .mini-nav {
@@ -60,6 +62,7 @@ main {
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
+  
 }
 
 .mini-nav button {
@@ -89,8 +92,29 @@ main {
   text-align: left;
   display: none;
   animation: fadeIn 0.3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
-              rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+              rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+  box-shadow: 5px 5px 10px 1px #000000;
+}
+
+.party-section {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.party-section h2 {
+  margin-bottom: 15px;
+}
+
+.party-section p {
+  font-size: 23px;
+  margin: 10px 0;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
 
 .info {
