@@ -4,6 +4,10 @@ body {
   background: linear-gradient(to right, #fceabb, #f8b500);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Header & Navigation */
 header {
   background: linear-gradient(to right, #ff512f, #dd2476);
