@@ -145,6 +145,38 @@ main {
   width: 90%;
 }
 
+.amountspan{
+  color: blue;
+  font-size:30px;
+}
+
+.paymentinfo{
+  color: green; 
+  font-weight: bolder;
+}
+
+.warnheading{
+  color: rgb(255, 0, 0); 
+  text-decoration:doub solid black 20%;
+}
+
+.noteinfo{
+  color: rgb(255, 0, 0);
+}
+
+.contact-info {
+  text-align: left;
+  max-width: 100%; /* You can change this to 600px or whatever fits */
+  margin: auto;
+  padding: 20px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: blue; /* Uses current text color */
+}
+
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
